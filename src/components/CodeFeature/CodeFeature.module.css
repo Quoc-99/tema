@@ -1,0 +1,109 @@
+.codeFeatureContainer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   font-family: 'Albert Sans', serif;
+   max-width: 100%;
+   gap: 60px;
+}
+
+.codeSection {
+   flex: 1;
+   max-width: 50%;
+   padding: 20px;
+}
+
+.codeSidebar {
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.icon {
+   width: 10px;
+   height: 10px;
+   background: black;
+   border-radius: 50%;
+}
+
+.codeContent {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+}
+
+.codeContent img {
+   max-width: 100%;
+   border-radius: 5px;
+}
+
+.featureSection {
+   flex: 1 1;
+   max-width: 45%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.featureSection h2 {
+   font-size: 48px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.featureSection p {
+   font-size: 22px;
+   color: #666;
+   margin-bottom: 20px;
+}
+
+.tryButton {
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   background-color: #010101;
+   color: white;
+   font-size: 22px;
+   padding: 10px 26px;
+   cursor: pointer;
+   transition: background 0.3s ease;
+}
+
+.tryButton:hover {
+   background: #333;
+}
+
+.arrow {
+   margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+   .codeFeatureContainer {
+      flex-direction: column-reverse;
+   }
+
+   .featureSection,
+   .codeSection {
+      max-width: 100%;
+      padding: 0;
+   }
+
+   .featureSection h2 {
+      font-size: 34px;
+   }
+
+   .featureSection p {
+      font-size: 16px;
+   }
+
+   .tryButton {
+      width: 100%;
+      font-size: 17px;
+      justify-content: center;
+   }
+}

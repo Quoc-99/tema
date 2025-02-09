@@ -1,0 +1,72 @@
+.languageSwitcher {
+   position: relative;
+   display: inline-block;
+}
+
+.toggleButton {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   cursor: pointer;
+   background-color: #e8e8e8;
+   padding: 6px 10px;
+   justify-content: space-between;
+   border-radius: 12px;
+   border: none;
+   font-size: 22px;
+   font-weight: 700;
+}
+
+.toggleButton:hover {
+   background-color: #e2e2e2;
+}
+
+.flag {
+   font-size: 20px;
+}
+
+.code {
+   font-size: 14px;
+}
+
+.chevron {
+   font-size: 12px;
+   transition: transform 0.2s ease;
+}
+
+.chevron.up {
+   transform: rotate(180deg);
+}
+
+.dropdown {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   margin-top: 4px;
+   background-color: #e8e8e8;
+   color: #535353;
+   border-radius: 6px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 150px;
+   z-index: 10;
+   padding: 6px 10px;
+}
+
+.dropdownItem {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   padding: 8px 12px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+   border-radius: 8px;
+   font-weight: 400;
+}
+
+.dropdownItem:hover {
+   background-color: #fff;
+}
+
+.name {
+   font-size: 14px;
+}

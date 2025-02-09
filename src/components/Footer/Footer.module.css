@@ -1,0 +1,131 @@
+.footer {
+   max-width: 100%;
+   background-color: black;
+   color: white;
+   padding: 200px 40px 20px;
+   border-top: 1px solid rgba(255, 255, 255, 0.1);
+   font-family: 'Albert Sans', serif;
+   position: relative;
+}
+
+.footerTop {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   padding: 20px 60px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footerBrand {
+   display: flex;
+   align-items: center;
+   font-size: 34px;
+   color: #fff;
+}
+
+.footerLogo {
+   width: 30px;
+   height: 30px;
+   margin-right: 10px;
+}
+
+.footerNav a {
+   margin: 0 10px;
+   color: white;
+   text-decoration: none;
+   font-size: 30px;
+}
+
+.footerNav a:hover {
+   color: #d0e943;
+}
+
+.footerBottom {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 60px;
+}
+
+.footerSocial .icon {
+   margin-right: 15px;
+   cursor: pointer;
+}
+
+.footerSocial .icon:hover {
+   color: #d0e943;
+}
+
+.copyright {
+   font-size: 24px;
+}
+
+.author {
+   margin-left: 6px;
+   color: #d0e943;
+   text-decoration: none;
+}
+
+.promoBanner {
+   width: 1175px;
+   position: absolute;
+   top: -50%;
+   left: 50%;
+   transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 768px) {
+   .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 200px 20px 20px;
+   }
+
+   .footerTop {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      border: none;
+   }
+
+   .footerNav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      margin: 60px 0;
+   }
+
+   .footerNav a {
+      font-size: 20px;
+   }
+
+   .promoBanner {
+      width: 84%;
+      top: -20%;
+   }
+
+   .footerBottom {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      gap: 20px;
+   }
+
+   .footerSocial {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+   }
+
+   .copyright {
+      padding: 20px 0;
+      font-size: 20px;
+   }
+}

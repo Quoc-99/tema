@@ -1,0 +1,20 @@
+@import url('./reset.module.css');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.app {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.content {
+   padding: 0 0 200px;
+   position: relative;
+}
+
+.scrollTop {
+   position: fixed;
+   cursor: pointer;
+   bottom: 10px;
+   right: 10px;
+   z-index: 100;
+}

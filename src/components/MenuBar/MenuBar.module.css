@@ -1,0 +1,67 @@
+.menuBarContainer {
+   width: 84%;
+   height: 100vh;
+   background-color: #000;
+   opacity: 0.9;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 1000;
+   display: none;
+   flex-direction: column;
+}
+
+.display {
+   display: flex;
+}
+
+.iconClose {
+   display: flex;
+   justify-content: flex-end;
+   padding: 30px 20px 20px;
+}
+
+.menus {
+   color: #fff;
+}
+
+.menusItem {
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   gap: 8px;
+}
+
+.iconArrow {
+   margin-left: auto;
+}
+
+.footer {
+   margin-top: auto;
+}
+
+.resources {
+   margin-left: 6px;
+}
+
+.footerSocial {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 40px;
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+}
+
+.copyright {
+   text-align: center;
+   color: white;
+   padding: 20px 0;
+}
+
+.copyright a {
+   text-decoration: none;
+   margin-left: 6px;
+   color: #d0e943;
+}
