@@ -70,3 +70,14 @@
 .name {
    font-size: 14px;
 }
+
+.language {
+   color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+   .languageSwitcher {
+      margin-left: auto;
+      margin-right: 20px;
+   }
+}
